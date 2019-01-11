@@ -7,7 +7,7 @@ var gem2 = 0;
 var gem3 = 0;
 var gem4 = 0;
 var count = 0;
-var newCount = 0;
+
 
 // Randomize the answerNumber
 answerNumber = Math.floor(Math.random() * 101 + 19)
@@ -29,21 +29,66 @@ console.log("Gem 4 is : " + gem4);
 $('#gem1').on('click', function() {
 count = count + gem1;
 console.log(count);
+if (count !==  0 && count === answerNumber) {
+    wins++;
+    console.log('Number of wins : ' + wins);
+}
+
+else if (count > answerNumber) {
+    losses++;
+    console.log('Number of losses : ' + losses);
+}
 });
 
 $('#gem2').on('click', function() {
 count = count + gem2;
 console.log(count);
+if (count !==  0 && count === answerNumber) {
+    wins++;
+    console.log('Number of wins : ' + wins);
+}
+
+else if (count > answerNumber) {
+    losses++;
+    console.log('Number of losses : ' + losses);
+}
 });
 
 $('#gem3').on('click', function() {
 count = count + gem3;
 console.log(count);
+if (count !==  0 && count === answerNumber) {
+    wins++;
+    console.log('Number of wins : ' + wins);
+}
+
+else if (count > answerNumber) {
+    losses++;
+    console.log('Number of losses : ' + losses);
+}
 });
 
 $('#gem4').on('click', function() {
 count = count + gem4;
 console.log(count);
+if (count !==  0 && count === answerNumber) {
+    wins++;
+    console.log('Number of wins : ' + wins);
+}
+
+else if (count > answerNumber) {
+    losses++;
+    console.log('Number of losses : ' + losses);
+}
 });
 
+// if (count !==  0 && count === answerNumber) {
+//     wins++;
+//     console.log('Number of wins : ' + wins);
+// }
+
+// else if (count > answerNumber) {
+//     losses++;
+//     console.log('Number of losses : ' + losses);
+// }
 
