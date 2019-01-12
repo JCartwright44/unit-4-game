@@ -20,19 +20,25 @@
         </div>
         <div class="row">
             <div class="col">
+                    <div class="card">
+                            <div class="card-body left">
                 <p>You will be given a random number at the start of the game.</p>
-                <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</p>
-                <p>You win the game by matching your total score to a random number.</p>
+                <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your current score.</p>
+                <p>You win the game by matching your current score to the answer number.</p>
                 <p>The value of each crystal is hidden from you until you click on it.</p>
                 <p>Each time the game starts again, the game will change the values of each crystal.</p>
+                            </div>
+                    </div>
             </div>
             <div class="col">
-                <div class="row">
+                    <div class="card rightSide">
+                            <div class="card-body">
+                <div class="row rightSide">
                     <div class="col">
                         <p id='answer'>Answer</p>
-                    </div>
-                </div>  
-                <div class="row">
+                                    </div>
+                            </div>  
+                <div class="row rightSide">
                         <div class="col" id='gem1'>
                             <img src="./assets/images/Firecrystal.gif" alt="firecrystal">
                         </div>
@@ -46,19 +52,21 @@
                             <img src="./assets/images/Windcrystal.gif" alt="windcrystal">
                         </div>
                     </div>   
-                    <div class="row">
-                            <div class="col">
+                    <div class="row rightSide">
+                            <div class="col right">
                                     <p id='wins'>Wins: 0</p>
                                 </div>
-                                <div class="col">
+                                <div class="col right">
                                         <p id='losses'>Losses: 0</p>
                                     </div>    
                         </div>  
-                        <div class="row">
+                        <div class="row rightSide">
                                 <div class="col">
                                     <p id='current'>Current Number: 0</p>
                                 </div>
-                            </div>           
+                            </div>       
+                        </div>
+                    </div>       
             </div>
         </div>
     </div>   

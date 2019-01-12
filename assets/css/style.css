@@ -1,0 +1,42 @@
+body {
+    background-color: #90CAF9;
+}
+
+.jumbotron {
+    background-color: #2196F3;
+}
+
+.display-4 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.right {
+    margin-top: 32px;
+}
+
+.rightSide {
+    background-color:#E3F2FD;
+}
+
+.left {
+    background-color:#E3F2FD;
+}
+
+#answer {
+    font-size: 24px;
+}
+
+#wins {
+    font-size: 22px;
+}
+
+#losses {
+    font-size: 22px; 
+}
+
+#current {
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
