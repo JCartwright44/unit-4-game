@@ -56,14 +56,16 @@ console.log(count);
 if (count !==  0 && count === answerNumber) {
     wins++;
     console.log('Number of wins : ' + wins);
-    $('#wins').text('Wins: ' + wins)
+    $('#wins').text('Wins: ' + wins);
+    $('#current').text('Current Number: 0');
     startGame();
 }
 
 else if (count > answerNumber) {
     losses++;
     console.log('Number of losses : ' + losses);
-    $('#losses').text('Losses: ' + losses)
+    $('#losses').text('Losses: ' + losses);
+    $('#current').text('Current Number: 0');
     startGame();
 }
 });
@@ -75,14 +77,16 @@ console.log(count);
 if (count !==  0 && count === answerNumber) {
     wins++;
     console.log('Number of wins : ' + wins);
-    $('#wins').text('Wins: ' + wins)
+    $('#wins').text('Wins: ' + wins);
+    $('#current').text('Current Number: 0');
     startGame();
 }
 
 else if (count > answerNumber) {
     losses++;
     console.log('Number of losses : ' + losses);
-    $('#losses').text('Losses: ' + losses)
+    $('#losses').text('Losses: ' + losses);
+    $('#current').text('Current Number: 0');
     startGame();
 }
 });
@@ -94,7 +98,8 @@ console.log(count);
 if (count !==  0 && count === answerNumber) {
     wins++;
     console.log('Number of wins : ' + wins);
-    $('#wins').text('Wins: ' + wins)
+    $('#wins').text('Wins: ' + wins);
+    $('#current').text('Current Number: 0');
     
     startGame();
 }
@@ -102,7 +107,8 @@ if (count !==  0 && count === answerNumber) {
 else if (count > answerNumber) {
     losses++;
     console.log('Number of losses : ' + losses);
-    $('#losses').text('Losses: ' + losses)
+    $('#losses').text('Losses: ' + losses);
+    $('#current').text('Current Number: 0');
     startGame();
 }
 });
@@ -114,14 +120,16 @@ console.log(count);
 if (count !==  0 && count === answerNumber) {
     wins++;
     console.log('Number of wins : ' + wins);
-    $('#wins').text('Wins: ' + wins)
+    $('#wins').text('Wins: ' + wins);
+    $('#current').text('Current Number: 0');
     startGame();
 }
 
 else if (count > answerNumber) {
     losses++;
     console.log('Number of losses : ' + losses);
-    $('#losses').text('Losses: ' + losses)
+    $('#losses').text('Losses: ' + losses);
+    $('#current').text('Current Number: 0');
     startGame();
 }
 });
