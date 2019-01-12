@@ -51,6 +51,7 @@ $('#answer').text('Answer Number: ' + answerNumber);
 function winGame() {
     wins++;
     console.log('Number of wins : ' + wins);
+    $('#wins').fadeTo(100, 0.3, function() { $(this).fadeTo(500, 1.0); });
     $('#wins').text('Wins: ' + wins);
     $('#current').text('Current Number: 0');
     startGame();
@@ -62,6 +63,7 @@ function winGame() {
 function loseGame() {
     losses++;
     console.log('Number of losses : ' + losses);
+    $('#losses').fadeTo(100, 0.3, function() { $(this).fadeTo(500, 1.0); });
     $('#losses').text('Losses: ' + losses);
     $('#current').text('Current Number: 0');
     startGame();
